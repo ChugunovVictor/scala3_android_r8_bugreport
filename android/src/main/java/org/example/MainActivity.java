@@ -2,13 +2,8 @@ package org.example;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
-import example.Clazz;
-import example.Static;
-
-import java.util.Arrays;
-import java.util.Collections;
+import example.Example;
 
 public class MainActivity extends Activity {
 
@@ -18,7 +13,7 @@ public class MainActivity extends Activity {
 
         TextView text = new TextView(this);
 
-        text.setText(Static.info1());
+        text.setText(Example.info1());
 
         setContentView(text);
     }
