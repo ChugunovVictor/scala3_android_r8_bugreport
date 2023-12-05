@@ -1,0 +1,14 @@
+plugins {
+    id 'scala'
+    id 'java-library'
+}
+
+ext {
+    scala2Version = "2.13.12"
+    scala3Version = "3.3.0"
+}
+
+dependencies {
+    //implementation("org.scala-lang:scala-library:$scala2Version")
+    implementation("org.scala-lang:scala3-library_3:$scala3Version")
+}
